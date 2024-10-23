@@ -1,0 +1,18 @@
+header {
+    background-color: #1E1441;
+}
+
+.btn-circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-circle:hover {
+    transform: translateY(-3px);
+}
